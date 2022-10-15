@@ -1,11 +1,18 @@
 #include <stdio.h>
+
 /**
- * main-entry point for the program.
+ * main - Prints numbers from 0 to 9.
  *
- * Return:0 if no errors,return non zeroif errors
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	printf("with proper grammar,but the outcome is a piece of art,\n");
+	int i;
+	
+	for (i = 0; i < 10; i++)
+	{
+		printf("%d", i);
+	}
+	putchar('\n');
 	return (0);
 }
