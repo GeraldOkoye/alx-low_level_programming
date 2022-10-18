@@ -1,22 +1,16 @@
 #include <stdio.h>
-
 /**
- * main - Prints numbers between 0 to 9 with commas and spaces.
- *
- * Return: Always 0 (Success)
+ * main-program entry point.
+ * Return: 0 if no error, non zero if error.
  */
 int main(void)
 {
 	int i;
+	char hexvalues[] = "0123456789abcdef";
 
-	for (i = 48; i < 58; i++)
+	for (i = 0; i < 16; i++)
 	{
-		putchar(i);
-		if (i != 57)
-		{
-			putchar(',');
-			putchar(' ');
-		}
+		putchar(hexvalues[i]);
 	}
 	putchar('\n');
 	return (0);
