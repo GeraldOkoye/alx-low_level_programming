@@ -1,6 +1,6 @@
 include "main.h"
 /**
- * print_alphabet - Prints the alphabet in lowercase
+ * print_alphabet - Prints lowercase of alphabets
  *
  * Return: Always 0 (Success)
  */
